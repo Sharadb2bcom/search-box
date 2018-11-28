@@ -48,3 +48,10 @@ body {
 .search-box:hover > .search-btn {
   background: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .search-box:hover > .search-txt {
+    width: 200px;
+    padding: 0 4px;
+  }
+}
